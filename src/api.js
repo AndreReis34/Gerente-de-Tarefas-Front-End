@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
+const API_URL = import.meta.env.VITE_API_URL || "https://api-de-tarefas-3bz5.onrender.com";
 
 export function getToken() {
   return localStorage.getItem("token");
